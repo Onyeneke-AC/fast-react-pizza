@@ -12,9 +12,9 @@ function CreateUser() {
   function handleSubmit(e) {
     e.preventDefault();
 
-    // dispatch(updateName(username));
+    dispatch(updateName(username));
 
-    // navigate("/menu");
+    navigate("/menu");
   }
 
   return (
