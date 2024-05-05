@@ -6,8 +6,8 @@ import { updateName } from "./userSlice";
 
 function CreateUser() {
   const [username, setUsername] = useState("");
-  // const navigate = useNavigate();
-  // const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   function handleSubmit(e) {
     e.preventDefault();
