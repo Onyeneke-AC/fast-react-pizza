@@ -8,7 +8,7 @@ const fakeCart = [
   {
     pizzaId: 12,
     name: "Mediterranean",
-    quantity: 2,
+    quantity: 1,
     unitPrice: 16,
     totalPrice: 32,
   },
